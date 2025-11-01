@@ -79,7 +79,7 @@ You can tweak several parameters in the code to control the appearance and behav
 | **Variable** | **Default Value** | **Description** |
 |---------------|-------------------|-----------------|
 | `screenWidth` | `180` | Console width in columns |
-| `screenHeight` | `60` | Console height in rows |
+| `screenHeight` | `50` | Console height in rows |
 | `TOTAL_RAIN_DROPS` | `180` | Total number of falling rain streams |
 | `minDropSpeed` | `5.0f` | Minimum vertical speed of a raindrop |
 | `rangeDropSpeed` | `40` | Range added to the minimum speed for variation |
