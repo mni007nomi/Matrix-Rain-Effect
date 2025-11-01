@@ -46,6 +46,8 @@ void initializeRainDrop(MatrixRainDrop* drop) {
 
 	drop->dropSpeed = minDropSpeed + rand() % 40;
 
+	drop->text.clear();
+
 	for (int i = 0; i < currentTextLength; i++) {
 		wchar_t randomCharacter = (wchar_t)minASCIICharacter + rand() % rangeASCIICharacter;
 		drop->text.append(1, randomCharacter);
