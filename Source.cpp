@@ -44,7 +44,7 @@ void initializeRainDrop(MatrixRainDrop* drop) {
 	drop->xPosition = rand() % screenWidth;
 	drop->yPosition = 0.0f;
 
-	drop->dropSpeed = minDropSpeed + rand() % 40;
+	drop->dropSpeed = minDropSpeed + rand() % rangeDropSpeed;
 
 	drop->text.clear();
 
